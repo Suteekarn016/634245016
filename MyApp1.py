@@ -5,8 +5,7 @@ st.header("Website Developing using Python")
 st.subheader("	✨Suteekarn	✨")
 st.image('images.jpg')
 
-#Index(['sepal.length', 'sepal.width', 'petal.length', 'petal.width','variety'],
-      dtype='object')
+#Index(['sepal.length', 'sepal.width', 'petal.length', 'petal.width','variety'], dtype='object')
 
 dt=pd.read_csv('./data/iris.csv')
 st.subheader("ข้อมูลดอกไม้")
