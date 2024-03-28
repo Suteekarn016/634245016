@@ -6,4 +6,7 @@ st.subheader("	✨Suteekarn	✨")
 st.image('images.jpg')
 
 dt=pd.read_csv('./data/iris.csv')
+st.subheader("ข้อมูลดอกไม้")
 st.write(dt.head(10))
+
+st.subheader("ข้อมูลดอกไม้")
