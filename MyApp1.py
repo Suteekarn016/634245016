@@ -19,7 +19,7 @@ cl2.write(dt['sepal.width'].sum())
 cl3.write(dt['petal.length'].sum())
 cl4.write(dt['petal.width'].sum())
 cols=['sepal.length', 'sepal.width','petal.length']
-dx=dt.DataFrame({
+dx=pd.DataFrame({
     "col1":dt['sepal.length'].sum(),
     "col2":dt['sepal.width'].sum(),
     "col3":dt['petal.length'].sum()
